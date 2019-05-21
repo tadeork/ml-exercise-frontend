@@ -1,0 +1,68 @@
+body {
+  background-color: #EEEEEE;
+}
+
+.head-nav {
+  background-color: #FFE600;
+  box-sizing: border-box;
+  width: 100%; /* TODO: esta regla debe ser parte de un grid */
+  display: table;
+  height: 55px;
+  vertical-align: top;
+}
+
+.logo-hand {
+  content: url(../assets/imgs/Logo_ML.png);
+  max-width: 100%;
+  margin-right: 35px;
+  float: left;
+}
+
+.search-icon {
+  content: url(../assets/imgs/ic_Search@2x.png.png);
+  height: 16px;
+}
+
+.search-button {
+  background-color: #EEEEEE;
+  float: left;
+  width: ;
+  padding: 7px;
+  padding-top: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.input-box {
+  width: 650px;
+  height: 27px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 5px;
+  padding-left: 12px;
+  border: none;
+  float: left;
+}
+
+.search-form {
+  margin-top: 10px;
+  margin-bottom: auto;
+}
+
+.search-box {
+  width: 70%;
+  align-content: center;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+
+
+@media screen and (max-width: 1120px) {
+.input-box {
+    width: 85%;
+  }
+}
